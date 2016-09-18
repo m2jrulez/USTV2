@@ -53,6 +53,12 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Registrar\frmNewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Registrar\frmNewStudent.Designer.cs">
+      <DependentUpon>frmNewStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lib\PublicModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataSets\" />
-    <Folder Include="GUI\Registrar\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\" />
   </ItemGroup>
