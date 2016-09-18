@@ -15,7 +15,11 @@ namespace USTV2.Lib
         public static int UserID { get; set; }
         public static string UserName { get; set; }
 
-        public static string conStr = "Server=.;Database=InventoryManagementSystem;User Id=sa;Password=123456;";
+        public static string Server = "";
+        public static string DataSource = "";
+        public static string Password = "";
+
+        public static string conStr = Server + ";" + DataSource + ";" + Password;
 
         public static string messageBoxCaption = "نظام إدارة المخزون - UST";
 
