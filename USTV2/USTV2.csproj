@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataSets\" />
-    <Folder Include="GUI\" />
+    <Folder Include="GUI\Registrar\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\" />
   </ItemGroup>
