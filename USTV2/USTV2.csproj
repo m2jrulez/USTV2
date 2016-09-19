@@ -47,18 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\Registrar\frmNewStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Registrar\frmNewStudent.Designer.cs">
-      <DependentUpon>frmNewStudent.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lib\PublicModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\Registrar\frmNewStudent.resx">
-      <DependentUpon>frmNewStudent.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataSets\" />
+    <Folder Include="GUI\Registrar\" />
     <Folder Include="Reports\" />
     <Folder Include="Resources\" />
   </ItemGroup>
